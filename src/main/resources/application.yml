@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: worker-contracts-api
+  profiles:
+    active: dev

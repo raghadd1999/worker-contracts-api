@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+    include-stacktrace: on_param
+
+logging:
+  level:
+    com.example.workercontracts: DEBUG
+    org.springframework.web: DEBUG
